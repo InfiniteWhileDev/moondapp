@@ -1,0 +1,21 @@
+{
+  "CONTRACT_ADDRESS": "0x59c012547e7958Ad4F5359A75AafED581652F8b9",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x59c012547e7958ad4f5359a75aafed581652f8b9",
+  "NETWORK": {
+    "NAME": "Ethereum",
+    "SYMBOL": "ETH",
+    "ID": 4
+  },
+  "NFT_NAME": "HappyDays",
+  "SYMBOL": "Happy",
+  "MAX_SUPPLY": 150,
+  "DISPLAY_COST": 0.02,
+  "GAS_LIMIT": 145000,
+  "MAX_PER_TX": 250,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/",
+  "Telegram": "https://",
+  "Discord": "https://",
+  "Twitter": "https://",
+  "SHOW_BACKGROUND": false
+}
