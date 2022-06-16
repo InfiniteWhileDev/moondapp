@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap");
+
 :root {
   --primary: rgb(37, 37, 37);
   --primary-text: white;
@@ -5,4 +8,480 @@
   --secondary-text: white;
   --accent: white;
   --accent-text: white;
+}
+
+
+main {
+  background-image: url("../config/images/moonbg9.jpeg");
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bg {
+  background-size: cover;
+  opacity: 1;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  font-family: "Press Start 2P", cursive !important;
+}
+
+.bullets {
+  font-family: "Press Start 2P", cursive !important;
+}
+
+.nav {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.nav div {
+  align-self: center;
+  display: flex;
+}
+
+.nav div a {
+  margin: 0 0.8rem;
+}
+
+.nav #logo {
+  max-width: 40px;
+}
+
+.nav .Opensea {
+  background-color: #aa730c;
+  font-size: 14px;
+  padding: 15px 30px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  color: white;
+  font-family: "Press Start 2P", cursive;
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  .nav h1 {
+    text-align: center;
+    margin-bottom: 1.4rem;
+  }
+
+  .nav div {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .nav div a {
+    min-width: 50px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.logo-container {
+  align-self: center;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.container__intro {
+  height: 100vh;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.intro h2 {
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Press Start 2P", cursive;
+  margin-bottom: -1rem;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+  font-family: "Press Start 2P", cursive !important;
+  padding-bottom: 2rem;
+}
+
+.intro p {
+  color: white;
+  font-size: 1.2rem;
+  padding: 0 1rem 1rem 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 960px) {
+  .intro {
+    padding: 0.5rem;
+  }
+
+  .intro p {
+    max-width: 100%;
+  }
+
+  .intro h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.intro .passFlex {
+  border: 3px solid #cc800d;
+  border: 3px solid #d6d6d6;
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #2d2b2d;
+}
+
+.intro .passFlex .passFlex-imgCon {
+  max-width: 400px;
+}
+
+.intro .passFlex .passFlex-imgCon p {
+  padding-bottom: 0;
+  margin-bottom: 0.8rem;
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.8rem;
+}
+
+.intro .passFlex img {
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .intro .passFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    align-items: center;
+    background-color: #2d2b2d 1e;
+    border: none;
+  }
+}
+
+.intro .trans-div {
+  background-color: #101111 4d;
+  padding: 1rem;
+}
+
+.intro .trans-div p:first-child {
+  margin-bottom: 0;
+}
+
+.etherscan a {
+  color: #cc800d;
+  font-size: 1rem;
+}
+
+.mintBtn {
+  background-color: #aa730c;
+  color: white !important;
+  padding: 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.mintBtn:hover {
+  background-color: #101111;
+}
+
+.etherscan ul {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  justify-content: space-evenly;
+}
+
+.etherscan p {
+  padding-top: 2rem;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+
+}
+
+.etherscan li {
+  background-color: rgba(0, 0, 0, 0.534);
+  padding: 0.5rem;
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.8rem;
+}
+
+.etherscan p:first-child {
+  background-color: #ce8628 1e;
+  padding: 1rem;
+}
+
+.etherscan p:nth-child(2) {
+  font-size: 1rem;
+}
+
+.header_txt {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  padding-bottom: 2rem;
+}
+
+.carousel {
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+  padding-bottom: 10rem;
+}
+
+@media screen and (max-width: 960px) {
+  .carousel {
+    margin-top: 2rem;
+  }
+}
+
+.footer h2 {
+  color: white;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.footer {
+  margin-top: 4rem;
+}
+
+.footer h2 {
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+}
+
+.animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(-225deg, #c2890e 0%, #f0f0f0 29%, #c48806 67%, #ca880c 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.logo {
+  height: 190px;
+}
+
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #2e2e2e;
+  font-size: 14px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: #aa730c;
+  font-family: "Press Start 2P", cursive;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #aa730c;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.swiper {
+  max-width: 900px;
+  max-height: 600px;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  color: red;
+}
+
+.swiper-slide {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.container__team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 960px) {
+  .container__team {
+    flex-direction: column;
+  }
+}
+
+.container__team .teamMember {
+  text-align: center;
+}
+
+.container__team .teamMember h2 {
+  padding-top: 1rem;
+  font-size: 1.3rem;
+}
+
+.container__team .teamMember a {
+  text-decoration: none;
+  color: #1da1f2;
+}
+
+.header_txt {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  padding-bottom: 2rem;
+}
+
+
+.swiper {
+  max-width: 900px;
+  max-height: 600px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: red;
+}
+
+.swiper-slide {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.teamMember img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.hVHucl {
+  background-color: #00000000 !important;
+}
+
+.ixwsWu {
+  justify-content: center !important;
+  background-color: #00000000 !important;
+  margin-top: 2rem !important;
+
+}
+
+.kNRBEj {
+  width: 300px !important;
+}
+
+.fEDyrb, .VBAxX {
+  font-family: "Press Start 2P", cursive !important;
+  background-color: black;
+
+}
+
+.dBkHqm, .hPIeYp {
+  padding-top: 0 !important;
+}
+
+.hPIeYp {
+  padding: 1rem !important;
+}
+
+.VBAxX {
+  font-size: 1rem !important;
+}
+
+strong {
+  color: #d49012 !important;
+  font-size: 1.3rem !important;
 }
