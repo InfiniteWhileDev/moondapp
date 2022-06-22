@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap");
 
+
+
 :root {
   --primary: rgb(37, 37, 37);
   --primary-text: white;
@@ -218,6 +220,18 @@ img {
   flex-direction: row;
   border: 1px solid white;
   justify-content: space-evenly;
+  /* flex-wrap: wrap; */
+}
+@media screen and (max-width: 700px) {
+  .etherscan ul {
+    flex-wrap: wrap;
+  }
+  .twitterCta h2{
+    font-size: 1rem;
+  }
+  .dyiIFD {
+    font-size: 50px !important;
+  }
 }
 
 .etherscan p {
@@ -485,3 +499,4 @@ strong {
   color: #d49012 !important;
   font-size: 1.3rem !important;
 }
+
