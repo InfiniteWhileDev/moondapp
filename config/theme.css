@@ -75,6 +75,9 @@ img {
   -webkit-box-shadow: 0px 4px 0px -2px white;
   box-shadow:0px 4px 0px -2px white;
 }
+.tiersMobile{
+  display: none;
+}
 
 @media screen and (max-width: 600px) {
   .nav {
@@ -96,6 +99,12 @@ img {
     align-items: center;
     justify-content: center;
     align-items: center;
+  }
+  .tiersDesk {
+    display: none;
+  }
+  .tiersMobile{
+    display: block;
   }
 }
 
@@ -280,6 +289,11 @@ img {
   text-align: center;
   font-family: "Press Start 2P", cursive;
   padding-bottom: 2rem;
+}
+.header_txt.passes{
+  margin:9rem 0 -3rem 0;
+  font-size: 2rem;
+
 }
 
 .carousel {
