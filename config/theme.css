@@ -275,7 +275,7 @@ img {
 }
 
 .etherscan p:first-child {
-  background-color: #ce8628 1e;
+  background-color: #00000000 !important;
   padding: 1rem;
 }
 
@@ -512,7 +512,7 @@ border-radius: 2px;
   width: 320px !important;
 }
 
-.fEDyrb, .VBAxX {
+.fEDyrb, .VBAxX, .sc-ftvSup {
   font-family: "Press Start 2P", cursive !important;
   background-color: black;
 
@@ -540,4 +540,8 @@ strong {
 
 .sc-bczRLJ {
   background-color: rgba(46, 46, 46, 0) !important;
+}
+
+.sc-crXcEl {
+  padding-top: 0 !important;
 }
