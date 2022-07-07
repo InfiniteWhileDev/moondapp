@@ -1,14 +1,14 @@
 {
-  "CONTRACT_ADDRESS": "0xE8896d514a729e359F4A5c9634388361e6EbF5AB",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/tx/0x7ed2bfce1b0c8f707c641486a89249bd0351b681ddec24ad79cee66a5187f0e3",
+  "CONTRACT_ADDRESS": "",
+  "SCAN_LINK": "",
   "NETWORK": {
     "NAME": "Ethereum",
     "SYMBOL": "ETH",
     "ID": 4
   },
-  "NFT_NAME": "HappyDays",
-  "SYMBOL": "Happy",
-  "MAX_SUPPLY": 150,
+  "NFT_NAME": "",
+  "SYMBOL": "",
+  "MAX_SUPPLY": 10000,
   "DISPLAY_COST": 0.0089,
   "GAS_LIMIT": 145000,
   "MAX_PER_TX": 5,
